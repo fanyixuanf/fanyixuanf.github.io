@@ -1,6 +1,5 @@
 ---
 title: Learning Git
-author: "fanyixuanf"
 date: 2023-04-29 12:00:00 +0800
 categories: [Tutorial]
 tags: [Git]
