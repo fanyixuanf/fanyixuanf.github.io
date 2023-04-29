@@ -1,14 +1,13 @@
 ---
 title: Learning Git
-author: fanyixuan
+author: fyx
 date: 2023-04-29 12:00:00 +0800
 categories: [Tutorial]
 tags: [Git]
-pin: true
 ---
 
 ### git基本配置
-```git 
+```markdown 
   git config --global --list
   git config --local --list
   git config --global user.name "your name"
@@ -32,6 +31,7 @@ pin: true
 - ``` git config --global credential.helper store ```
 
 ### 命令分组
+
 | Basic Commands  | Undo Commits | Combine Branches |     Remote Server      |
 |:---------------:|:------------:|:----------------:|:----------------------:|
 |   git commit    |  git reset   |    git merge     |       git fetch        |
