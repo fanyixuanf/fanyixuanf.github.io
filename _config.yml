@@ -97,8 +97,8 @@ comments:
   giscus:
     repo: <gh-fanyixuanf>/<fanyixuanf.github.io>
     repo_id:
-    category:
-    category_id:
+    category: comments
+    category_id: 39357436
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
