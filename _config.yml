@@ -37,11 +37,10 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: fanyixuanf
+  name: fanyixuan
   email: fanyixuanf@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/fanyixuan3 # change to your twitter homepage
     - https://github.com/fanyixuanf # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -77,10 +76,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://twitter.com/Fanyixuan3/photo'
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/favicons/1uUIEBmz_400x400.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
