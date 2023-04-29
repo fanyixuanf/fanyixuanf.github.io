@@ -95,8 +95,8 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "fanyixuanf/fanyixuanf.github.io"
-    repo_id: "fanyixuanf/fanyixuanf.github.io"
+    repo: fanyixuanf/fanyixuanf.github.io
+    repo_id: fanyixuanf/fanyixuanf.github.io
     category: "Comments"
     category_id: 39357436
     mapping: # optional, default to 'pathname'
