@@ -2,7 +2,7 @@
 title: MYSQL Innodb
 date: 2023-04-29 17:10:00 +0800
 author: fyx
-categories: [Tutorial]
+categories: [Blogging, Tutorial]
 tags: [MYSQL, Innodb]
 ---
 

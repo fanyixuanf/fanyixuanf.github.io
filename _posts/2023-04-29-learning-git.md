@@ -2,7 +2,7 @@
 title: Learning Git
 date: 2023-04-29 12:00:00 +0800
 author: fyx
-categories: [Tutorial]
+categories: [Blogging, Tutorial]
 tags: [Git]
 ---
 
