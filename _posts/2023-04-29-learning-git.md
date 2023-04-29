@@ -8,12 +8,14 @@ pin: true
 ---
 
 ### git基本配置
-- ``` git config --global --list ```
-- ``` git config --local --list ```
-- ``` git config --global user.name "your name" ```
-- ``` git config --global user.email "your email" ```
-- ``` git config --local user.name "your name" ```
-- ``` git config --local user.email "your email" ```
+```git 
+  git config --global --list
+  git config --local --list
+  git config --global user.name "your name"
+  git config --global user.email "your email"
+  git config --local user.name "your name"
+  git config --local user.email "your email"
+```
 
 ### 删除配置信息
 - ``` git config --unset --global 要删除的配置项 ```
