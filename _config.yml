@@ -95,7 +95,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: fanyixuanf/fanyixuanf.github.io
+    repo: https://github.com/fanyixuanf/fanyixuanf.github.io
     repo_id:
     category:
     category_id:
