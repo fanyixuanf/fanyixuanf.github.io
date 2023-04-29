@@ -7,7 +7,7 @@ tags: [MYSQL, Innodb]
 ---
 
 ### MySQL 的架构
-![img_8.png](../assets/img/images/img_8.png)
+![img_8.png](assets/img/images/img_8.png)
 - 最上层用于连接、线程处理的部分并不是 MySQL 『发明』的，很多服务都有类似的组成部分
 - 第二层(server)中包含了大多数 MySQL 的核心服务，包括了对 SQL 的解析、分析、优化和缓存等功能，存储过程、触发器和视图都是在这里实现的
 - 第三层(存储引擎)就是 MySQL 中真正负责数据的存储和提取的存储引擎
@@ -64,14 +64,14 @@ tags: [MYSQL, Innodb]
 - MySQL 中默认的事务隔离级别就是 REPEATABLE READ，但是它通过 Next-Key 锁也能够在某种程度上解决幻读的问题
 #### 脏读
 - 在一个事务中，读取了其他事务未提交的数据
-- ![img_9.png](../assets/img/images/img_9.png)
+- ![img_9.png](assets/img/images/img_9.png)
 
 #### 不可重复读
 - 在一个事务中，同一行记录被访问了两次却得到了不同的结果
-- ![img_10.png](../assets/img/images/img_10.png)
+- ![img_10.png](assets/img/images/img_10.png)
 - 不可重复读的原因就是，在 READ COMMITED 的隔离级别下，存储引擎不会在查询记录时添加行锁
 
 #### 幻读
 - 在一个事务中，同一个范围内的记录被读取时，其他事务向这个范围添加了新的记录。
-- ![img_11.png](../assets/img/images/img_11.png)
+- ![img_11.png](assets/img/images/img_11.png)
 - 在标准的事务隔离级别中，幻读是由更高的隔离级别 SERIALIZABLE 解决的，但是它也可以通过 MySQL 提供的 Next-Key 锁解决
