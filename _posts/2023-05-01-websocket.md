@@ -5,9 +5,7 @@ author: fyx
 categories: [Blogging, Tutorial]
 tags: [WebSocket]
 ---
-
-# WebSocket
-***
+### 开始
 > 原理：
 
 - WebSocket 同 HTTP 一样也是应用层的协议，但是它是一种双向通信协议，是建立在 TCP 之上的。
@@ -59,7 +57,7 @@ tags: [WebSocket]
   - QoS 1(At least once)：“至少发一次”，意味着发送方必须明确收到接收方的确认信号，否则就会反复发，每条消息至少需要两次通信来确认到达，可以接受一些消息被重发，但成本不高 。
   - QoS 2(Exactly once)：“确保只发一次”，意味着每条消息只能到达一次，且不允许重复到达，为了达到这个目标就需要双方至少通讯三次，成本最高。
 
-## 客户端
+### 客户端
 ```go
 // github.com/gorilla/websocket
 u := url.URL{Scheme: "ws", Host: "localhost:8080", Path: "/echo"}
