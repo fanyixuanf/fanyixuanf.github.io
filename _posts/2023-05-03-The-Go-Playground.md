@@ -6,5 +6,4 @@ categories: [Blogging, Go]
 tags: [Go, Go Playground]
 ---
 
-## [The Go Playground](https://go.dev/play/p/1OU2kehp5EW)
-
+## [The Go Playground](https://go.dev/play/)
